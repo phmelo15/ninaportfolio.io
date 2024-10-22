@@ -1,9 +1,7 @@
-import { strongFontFamily } from "@/app/layout";
-
 export const styles = {
   Container:
     "w-full flex flex-col justify-center items-center bg-backgroundHome pb-[100px]",
-  Title: `text-[30px] font-extrabold ${strongFontFamily.variable} font-strong`,
+  Title: `text-[30px] font-extrabold  font-strong`,
   TitleMark:
     "bg-gradient-to-r from-blue-blueSix to-blue-blueSeven bg-clip-text text-transparent",
   ContainerExperience:
