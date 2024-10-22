@@ -13,26 +13,28 @@ export default function AboutMe() {
           className={styles.Photo}
         />
         <text className="mt-[20px] text-[12px] text-white">
-          Pedro Henrique Melo Tavares
+          Luanina Zandoná
         </text>
         <text className="mt-[2px] text-[12px] text-white" id="about-me">
-          Desenvolvedor Full-Stack
+          Desenvolvedora Full-Stack
         </text>
         <text className={styles.Presentation}>
           Bem vindo ao meu{" "}
           <strong className={styles.Mark}>portfólio! {":)"}</strong>
         </text>
         <text className={styles.ExperienceDesc}>
-          Olá! Meu nome é Pedro Henrique Melo Tavares, sou desenvolvedor
-          full-stack pleno com mais de três anos de experiência comprovada,
-          atuando tanto como freelancer quanto em empresas, como a Globalsys,
-          onde trabalhei por dois anos e meio. Tenho sólida expertise em
-          desenvolvimento web, mobile e backend, utilizando tecnologias como
-          TypeScript, React, React Native, Node.js, Nest.js, Next.js e
-          WordPress. Minha experiência envolve desde a criação de aplicativos
-          móveis até o desenvolvimento de plataformas web robustas e escaláveis.
-          Com foco nas necessidades dos clientes, entrego soluções eficientes e
-          inovadoras, sempre aderindo às melhores práticas de desenvolvimento.
+          Olá! meu nome é Luanina Zandoná, desenvolvedora com ampla experiência
+          em projetos freelancer, atuando tanto no desenvolvimento mobile,
+          front-end, quanto backend. Ao longo da minha carreira, participei de
+          diversos projetos, desde a fase de concepção até a produção, sempre
+          focada em entregar soluções completas, eficientes e escaláveis. Tenho
+          uma sólida experiência na criação de aplicativos mobile, sempre
+          priorizando uma experiência intuitiva e agradável para o usuário. No
+          desenvolvimento front-end, sou apaixonada por usar tecnologias como
+          React e Next.js, unindo design e funcionalidade para criar interfaces
+          modernas e performáticas. No backend, domino tecnologias como Node.js,
+          Nest.js e bancos de dados como MongoDB, MySQL e PostgreSQL, garantindo
+          a segurança e a performance dos sistemas que desenvolvo.
         </text>
         <text className={styles.TitleTec}>TECNOLOGIAS</text>
         <Technologies />

@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className={styles.Container}>
       <text className="pl-[100px] text-[11px] text-white">
-        Pedro Henrique Melo Tavares{" "}
+        Luanina Zandoná{" "}
       </text>
       <FaRegCopyright
         color="white"

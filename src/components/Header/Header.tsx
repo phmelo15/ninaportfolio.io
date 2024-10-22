@@ -44,16 +44,6 @@ export default function Header() {
       }`}
     >
       <nav className={styles.Nav}>
-        <button
-          className={styles.Signature}
-          onClick={() => console.log(pathname)}
-        >
-          <Image
-            src={Images.Assignature}
-            alt="my photo"
-            className="w-[150px]"
-          />
-        </button>
         {pathname === "/ProjectDetails" ? (
           <button
             className="text-white flex flex-row items-center"
@@ -63,7 +53,7 @@ export default function Header() {
             <text className="ml-[10px]">Voltar</text>
           </button>
         ) : (
-          <ul className="w-full md:w-1/2 flex flex-row justify-between items-center">
+          <ul className="w-full flex flex-row justify-between items-center">
             <li>
               <a href="#about-me" className="text-white">
                 Sobre mim
