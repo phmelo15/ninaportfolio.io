@@ -1,12 +1,9 @@
 "use client";
 
-import React, { useCallback, useEffect, useState } from "react";
-import { styles } from "./styles";
-import Image from "next/image";
-import { Images } from "@/constants/Images";
-import { usePathname } from "next/navigation";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
+import { useCallback, useEffect, useState } from "react";
 import { IoIosReturnLeft } from "react-icons/io";
+import { styles } from "./styles";
 
 export default function Header() {
   const [isVisible, setIsVisible] = useState(true);
