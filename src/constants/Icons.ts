@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 export const Icons = {
   ViewIcon: require("../assets/icons/ViewIcon.png"),
   Javascript: require("../assets/icons/javascript.png"),
